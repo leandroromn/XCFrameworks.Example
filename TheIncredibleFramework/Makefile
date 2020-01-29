@@ -1,4 +1,4 @@
-framework:
+build:
 	# Generate archive file for iOS
 	xcodebuild archive -scheme TheIncredibleFramework \
 	-destination="iOS" \
