@@ -1,0 +1,29 @@
+BCSymbolMap Version: 2.0
+_$s22TheIncredibleFramework0B6PersonC20formattedInformationSSyF
+_$s22TheIncredibleFramework0B6PersonC4nameSSvpWvd
+_$s22TheIncredibleFramework0B6PersonC5emailSSvpWvd
+_$s22TheIncredibleFrameworkMXM
+_$s22TheIncredibleFramework0B6PersonCML
+_$s22TheIncredibleFramework0B6PersonCMf
+_symbolic _____ 22TheIncredibleFramework0B6PersonC
+_symbolic SS
+_$s22TheIncredibleFramework0B6PersonCMF
+___swift_reflection_version
+_objc_classes
+Apple clang version 11.0.0 (clang-1100.0.33.15)
+<swift-imported-modules>
+/Users/leandroromano/Developer/Tests/XCFrameworks.Example/TheIncredibleFramework
+Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+/Users/leandroromano/Developer/Tests/XCFrameworks.Example/TheIncredibleFramework/TheIncredibleFramework/Models/IncrediblePerson.swift
+deinit
+formattedInformation
+appendLiteral
+<compiler-generated>
+appendInterpolation
+$sSSs20TextOutputStreamablessAAP5write2toyqd__z_ts0aB6StreamRd__lFTWs26DefaultStringInterpolationV_Tg5
+init
+$s22TheIncredibleFramework0B6PersonCMa
+email.get
+name.get
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/leandroromano/Library/Developer/Xcode/DerivedData/TheIncredibleFramework-geztaqolkyenuucqhsaddpbujrhc/Build/Intermediates.noindex/ArchiveIntermediates/TheIncredibleFramework/IntermediateBuildFilesPath/TheIncredibleFramework.build/Release-iphoneos/TheIncredibleFramework.build/DerivedSources/TheIncredibleFramework_vers.c

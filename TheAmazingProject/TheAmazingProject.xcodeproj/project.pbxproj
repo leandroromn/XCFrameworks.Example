@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD59CB7F23E10CEE00D0B078 /* TheIncredibleFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD59CB7E23E10CEE00D0B078 /* TheIncredibleFramework.xcframework */; };
+		FD59CB8023E10CEE00D0B078 /* TheIncredibleFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD59CB7E23E10CEE00D0B078 /* TheIncredibleFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		FDBAAC4E23E1057B006ECD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBAAC4D23E1057B006ECD12 /* AppDelegate.swift */; };
 		FDBAAC5023E1057B006ECD12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBAAC4F23E1057B006ECD12 /* SceneDelegate.swift */; };
 		FDBAAC5223E1057B006ECD12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBAAC5123E1057B006ECD12 /* ViewController.swift */; };
@@ -14,7 +16,22 @@
 		FDBAAC5A23E1057D006ECD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBAAC5823E1057D006ECD12 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FD59CB8123E10CEE00D0B078 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FD59CB8023E10CEE00D0B078 /* TheIncredibleFramework.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FD59CB7E23E10CEE00D0B078 /* TheIncredibleFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TheIncredibleFramework.xcframework; path = ../frameworks/TheIncredibleFramework.xcframework; sourceTree = "<group>"; };
 		FDBAAC4A23E1057B006ECD12 /* TheAmazingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheAmazingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBAAC4D23E1057B006ECD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDBAAC4F23E1057B006ECD12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD59CB7F23E10CEE00D0B078 /* TheIncredibleFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,11 +80,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FD59CB7D23E10CEE00D0B078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD59CB7E23E10CEE00D0B078 /* TheIncredibleFramework.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FDBAAC4123E1057B006ECD12 = {
 			isa = PBXGroup;
 			children = (
 				FDBAAC4C23E1057B006ECD12 /* TheAmazingProject */,
 				FDBAAC4B23E1057B006ECD12 /* Products */,
+				FD59CB7D23E10CEE00D0B078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +125,7 @@
 				FDBAAC4623E1057B006ECD12 /* Sources */,
 				FDBAAC4723E1057B006ECD12 /* Frameworks */,
 				FDBAAC4823E1057B006ECD12 /* Resources */,
+				FD59CB8123E10CEE00D0B078 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

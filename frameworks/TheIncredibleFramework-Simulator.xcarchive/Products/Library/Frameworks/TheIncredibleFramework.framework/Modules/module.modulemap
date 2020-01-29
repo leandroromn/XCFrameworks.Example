@@ -1,0 +1,11 @@
+framework module TheIncredibleFramework {
+  umbrella header "TheIncredibleFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TheIncredibleFramework.Swift {
+    header "TheIncredibleFramework-Swift.h"
+    requires objc
+}
