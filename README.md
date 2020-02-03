@@ -2,6 +2,10 @@
 
 A simple example to demonstrate how use XCFrameworks and generate them from a Makefile using a terminal.
 
+The purpose of this text is to create an alternative to modularize an iOS Application, prevent Xcode to rebuild frameworks multiple times without necessity and reduce the build time. 
+
+**If you have no problems with build time or large/heavy projects, this text will probably not help you.**
+
 ## Generating frameworks
 To generate the XCFrameworks for main project, run the following command at the root of the project in your terminal:
 ```
@@ -18,7 +22,7 @@ The command output will locate the XCFramework files at `frameworks` directory. 
     <img src="repository-images/diagram.png" max-width="80%" alt="Repository Filters" />
 </p>
 
-## Daily Strategy
+## How can I use this in real life?
 The main idea of this concept is to only use the binary version of each framework, preventing the Xcode to rebuild all frameworks again without a real necessity.
 
 In a team with others developers, it's recommended to separate your application in multiple frameworks, even in a feature level separation, if needed.
