@@ -31,9 +31,8 @@ By separating your features in frameworks, teams will work with specific pieces 
 If you need to test all frameworks together in the main iOS Application, go back to root directory and run the `build-all` command again.
 
 After all, the main iOS Application will only has a single responsability: be the center of all generated frameworks.
-The project will gather all frameworks, mount the structure, connect the features and ship the final archive to the App Store.
 
-Theoretically, the other teams will not work with the main project directly. Instead, a specific team (deploy team, architecture team, base team or something similar) will be in charge to maintain the connections and ship the final app to store.
+Theoretically, the other teams will not work with the main project directly. Instead, a specific team (deploy team, architecture team, base team or something similar) will be in charge to gather all frameworks, mount the structure, connect the features and ship the final archive to the App Store, for example.
 
 ## Final considerations
 
