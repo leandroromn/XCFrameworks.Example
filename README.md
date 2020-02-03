@@ -25,3 +25,12 @@ In a team with others developers, it's recommended to separate your application 
 By separating your features in frameworks, teams will work with specific pieces of your project, improving the performance, testability and speed of work.
 
 If you need to test all frameworks together in the main iOS Application, go back to root and run the `build-all` command again.
+
+After all, the main iOS Application will only has one responsability: be the center of all generated frameworks.
+Gather all frameworks, mount the project, connect the features and ship the final archive to the App Store.
+
+## Final considerations
+
+This is a simple way to keep your large or heavy project organized, clean and with a fast build time. Of course, you can use CocoaPods or Carthage to generate modules and distribute for your coleegues, but here I mantain the original alternative provided by Apple. 
+
+Please, feel free to send suggestions, corrections and improvements to this example. Thanks for reading.
