@@ -15,6 +15,7 @@ $ make build-all
 The command `build-all` will loop through a frameworks directories list and run the subfolders Makefile command to build the binary framework for iOS and Simulator platforms.
 
 If you add more frameworks to your project, you'll need to update the directories list to increment the loop.
+
 If you need to test all frameworks together in the main project, go back to root directory and run the `build-all` command again.
 
 The command output will locate the XCFramework files at `frameworks` directory. You can change anything you want (rename directories or files, change the output destination, etc...).
