@@ -6,17 +6,42 @@ The purpose of this text is to create an alternative to modularize an iOS Applic
 
 **If you have no problems with build time or large/heavy projects, this text will probably not help you.**
 
+## Monolith vs. Modules
+Before we start with binary frameworks and all stuff related, let's discuss about monoliths and modular applications.
+
+Here's a simple representation of a monolith application with 5 features and a modular application with the same 5 features but as external references.
+<p align="center">
+    <img src="repository-images/modular.png" width="380" max-width="60%" alt="Repository Filters" />
+</p>
+
+### Monolith
+Probably a giant **`.xcodeproj`** or **`.xcworkspace`** with a lot of features, files and all the stuff in a single place. Works good with small teams, but even in this case there's some problems: Conflicts in **`.pbxproj`**  file, a longer build time, issues with a single software architecture, technical debts, difficulties to test...
+
+### Modular
+A modular project can have several levels of modularization. This can significantly increase the complexity of the structure, but it helps you in other ways: less conflicts in **`.pbxproj`**  file, freedom to use different software architectures on each module, more testability, specific contexts, specific teams working on a single piece of project...
+
+Q: Does this mean that a modular project is better than a monolith project?
+A: **No.**
+<br/>
+Q: Modular concept is a silver bullet that will solve all your problems and make you billionaire?
+A: **No.**
+<br/>
+Q: Should I migrate my monolith project to a modular architecture right now without validate the risks?
+A: **Of course, no.**
+
+**This is just an alternative for large projects that are struggling to evolve. This may not work due to several particular problems related to the project, company or context.**
+
 ## Generating frameworks
 To generate the XCFrameworks for the main project, run the following command in your terminal:
 ```
 $ make build-all
 ```
 
-The command `build-all` will loop through a frameworks directories list and run the subfolders Makefile command to build the binary framework for iOS and Simulator platforms.
+The command **`build-all`** will loop through a frameworks directories list and run the subfolders Makefile command to build the binary framework for iOS and Simulator platforms.
 
 If you add more frameworks to your project, you'll need to update the directories list to increment the loop.
 
-If you need to test all frameworks together in the main project, go back to root directory and run the `build-all` command again.
+If you need to test all frameworks together in the main project, go back to root directory and run the **`build-all`** command again.
 
 The command output will locate the XCFramework files at `frameworks` directory. You can change anything you want (rename directories or files, change the output destination, etc...).
 
