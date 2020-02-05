@@ -27,7 +27,7 @@ Q: Does this mean that a modular project is better than a monolith project?
 <br/>
 A: **No.**
 
-Q: Modular concept is a silver bullet that will solve all your problems and make you billionaire?
+Q: Modular concept is a silver bullet that will solve all your problems and will make you a billionaire?
 <br/>
 A: **No.**
 
