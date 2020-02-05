@@ -18,17 +18,19 @@ Here's a simple representation of a monolith application with 5 features and a m
 *"Modular design, or modularity in design, is an approach (design theory and practice) that subdivides a system into smaller parts called modules, which can be independently created, modified, replaced or exchanged between different systems."*
 
 ### Monolith
-Probably a giant **`.xcodeproj`** or **`.xcworkspace`** with a lot of features, files and all the stuff in a single place. Works good with small teams, but even in this case there's some problems: Conflicts in **`.pbxproj`**  file, a longer build time, issues with a single software architecture, technical debts, difficulties to test...
+Probably a giant **`.xcodeproj`** or **`.xcworkspace`** with a lot of features, files and all the stuff in a single place. Works well with small teams, but even in this case there's some problems: Conflicts in **`.pbxproj`**  file, a longer build time, issues with a single software architecture, technical debts, difficulties to test...
 
 ### Modular
 A modular project can have several levels of modularization. This can significantly increase the complexity of the structure, but it helps you in other ways: less conflicts in **`.pbxproj`**  file, freedom to use different software architectures on each module, more testability, specific contexts, specific teams working on a single piece of project...
 
 Q: Does this mean that a modular project is better than a monolith project?
-A: **No.**
 <br/>
+A: **No.**
+
 Q: Modular concept is a silver bullet that will solve all your problems and make you billionaire?
-A: **No.**
 <br/>
+A: **No.**
+
 Q: Should I migrate my monolith project to a modular architecture right now without validate the risks?
 A: **Of course, no.**
 
