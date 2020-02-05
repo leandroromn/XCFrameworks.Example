@@ -33,7 +33,7 @@ A: **No.**
 
 Q: Should I migrate my monolith project to a modular architecture right now without validate the risks?
 <br/>
-A: **Of course, no.**
+A: **Of course not.**
 
 **This is just an alternative for large projects that are struggling to evolve. This may not work due to several particular problems related to the project, company or context.**
 
