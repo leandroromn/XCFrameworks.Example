@@ -32,6 +32,7 @@ Q: Modular concept is a silver bullet that will solve all your problems and will
 A: **No.**
 
 Q: Should I migrate my monolith project to a modular architecture right now without validate the risks?
+<br/>
 A: **Of course, no.**
 
 **This is just an alternative for large projects that are struggling to evolve. This may not work due to several particular problems related to the project, company or context.**
