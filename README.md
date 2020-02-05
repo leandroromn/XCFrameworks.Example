@@ -10,9 +10,12 @@ The purpose of this text is to create an alternative to modularize an iOS Applic
 Before we start with binary frameworks and all stuff related, let's discuss about monoliths and modular applications.
 
 Here's a simple representation of a monolith application with 5 features and a modular application with the same 5 features but as external references.
+
 <p align="center">
     <img src="repository-images/modular.png" width="380" max-width="60%" alt="Repository Filters" />
 </p>
+
+*"Modular design, or modularity in design, is an approach (design theory and practice) that subdivides a system into smaller parts called modules, which can be independently created, modified, replaced or exchanged between different systems."*
 
 ### Monolith
 Probably a giant **`.xcodeproj`** or **`.xcworkspace`** with a lot of features, files and all the stuff in a single place. Works good with small teams, but even in this case there's some problems: Conflicts in **`.pbxproj`**  file, a longer build time, issues with a single software architecture, technical debts, difficulties to test...
